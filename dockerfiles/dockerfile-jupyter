@@ -3,13 +3,14 @@ FROM python:latest
 
 
 
+
 # Create a new user and set permissions
-RUN useradd -m robert
+RUN useradd -m lilylee
 
 
 # Set ownership of the working directory
 WORKDIR /app
-RUN chown -R robert /app
+RUN chown -R lilylee /app
 
 
 
@@ -24,7 +25,7 @@ RUN pip install pandas sqlalchemy psycopg2-binary jupyter pyarrow
 
 
 #switch to non-root user
-USER robert
+USER lilylee
 
 
 # Copy ETL scripts or Jupyter notebooks into the container
