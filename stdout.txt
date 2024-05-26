@@ -1,0 +1,4 @@
+Model: LogisticRegression, AUC: 0.8026779422128258
+Model: RandomForestClassifier, AUC: 0.8054968287526427
+Model: DecisionTreeClassifier, AUC: 0.6920366455250176
+Best Model: RandomForestClassifier, Best AUC: 0.8054968287526427
